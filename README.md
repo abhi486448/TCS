@@ -1,0 +1,21 @@
+1. Cpp (Basics, pointers, oops) 2 day
+
+2. DSA
+   . Arrays --> Sorting, (Most imp. Merge Sort), Two Pointers, HashMap and HashSet, Binary Search etc. 1 week
+   . Strings 3 days
+   . LinkedList  2-3 days
+   . Stack and Queue Basics 2-3 days
+   . Recursion (Basics and Intermediate) --> Base Case, Parameter changes, return value (10 days)
+   . Trees --> Traversal, Types, etc. (1 week)
+    
+Sheet --> https://www.technilesh.com/2023/07/tcs-nqt-dsa-sheet-updated.html
+
+
+3. Projects (For interview)
+  	Javascript , React js, Node js, Express js, MongoDB (2 Projects)
+
+4. Aptitude --> Maths, Reasoning, Verbal (Knowledege gate tcs maths, reasoning, verbal one shot 12 hours).
+
+Interview -->
+
+. OOPS, OS, DBMS, My SQL, CN(optional), AI Basics, ML Basics, cloud basics, genAI basics
