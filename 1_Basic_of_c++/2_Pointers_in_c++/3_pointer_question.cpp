@@ -43,7 +43,7 @@ int main() {
 
     //But
     // int a = 15;
-    // arr = &a; // "This is not alow Because array pointer is cinstant they can not be modify"
+    // arr = &a; // "This is not alow Because array pointer is constant they can not be modify"
 
     return 0;
 }
