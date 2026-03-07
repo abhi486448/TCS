@@ -3,20 +3,17 @@ using namespace std;
 
 // find unique
 int FindUnique(int arr[], int n){
+    int ans = 0;
     for(int i=0; i<n; i++){
-        for(int j=i+1; j<n; j++){
-            if(arr[i]!=arr[j]) {}
-        }
+        ans^=arr[i];
     }
+    return ans;
 }
 
 int main(){
-    int arr[11]={1,2,5,6,8,8,6,0,1,2,5};
+    int arr[11]={1,2,5,6,8,8,6,7,1,2,5};
     int n=11;
 
-    int unique;
-    unique=FindUnique(arr, n);
-
-    cout<<"Unique element is: "<<unique;
+    cout<<"Unique element is: "<<FindUnique(arr, n);
     return 0;
 }
