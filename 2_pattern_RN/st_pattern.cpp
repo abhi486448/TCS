@@ -415,6 +415,45 @@ void pattern17(int N){
     }
 }
 
+void pattern18(int n){
+    int half = n/2 +1;
+    for(int i=1; i<=half; i++){
+        // space
+        for(int j=1; j<=half-i; j++){
+            cout<<" ";
+        }
+
+        //star
+        for(int j=1; j<=2*i-1; j++){
+            cout<<"*";
+        }
+
+        // space
+        for(int j=1; j<=half-i; j++){
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+
+    for(int i=half-1; i>=1; i--){
+        // space
+        for(int j=1; j<=half-i; j++){
+            cout<<" ";
+        }
+
+        //star
+        for(int j=1; j<=2*i-1; j++){
+            cout<<"*";
+        }
+
+        // space
+        for(int j=1; j<=half-i; j++){
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main()
 {
     int N;
@@ -435,6 +474,7 @@ int main()
     // pattern14(N);
     // pattern15(N);
     // pattern16(N);
-    pattern17(N);
+    // pattern17(N);
+    pattern18(N);
     return 0;
 }
