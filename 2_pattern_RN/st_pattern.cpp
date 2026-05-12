@@ -474,7 +474,7 @@ int main()
     // pattern14(N);
     // pattern15(N);
     // pattern16(N);
-    // pattern17(N);
-    pattern18(N);
+    pattern17(N);
+    //pattern18(N);
     return 0;
 }
