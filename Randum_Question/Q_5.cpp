@@ -10,7 +10,7 @@ using namespace std;
             for(int j=i; j<n; j++){
                 sum+=arr[j];
                 if(sum==k){
-                    length = max(length, j-1+1);
+                    length = max(length, j-i+1);
                 }
             }
         }
