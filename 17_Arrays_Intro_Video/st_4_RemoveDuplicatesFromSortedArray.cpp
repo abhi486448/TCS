@@ -30,7 +30,7 @@ using namespace std;
                 i++;
             }
         }
-        return i+1;
+        return i;
     }
 
     // TC = O(n)
@@ -48,6 +48,6 @@ int main (){
     // for(int i=0; i<n; i++) cout<<arr[i]<<" ";
 
     int Size = BremoveDuplicatesFSA(arr, n);
-    for(int i=0; i<Size; i++) cout<<arr[i]<<" ";
+    for(int i=0; i<=Size; i++) cout<<arr[i]<<" ";
     return 0;
 }
